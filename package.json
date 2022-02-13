@@ -1,0 +1,32 @@
+{
+  "name": "gap-script-fixer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc --watch",
+    "start": "node dist/index.js",
+    "test": "node dist/test-gap-script.js",
+    "clean": "node dist/clean-test-cache.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuuuoyue/gap-script-fixer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhuuuoyue/gap-script-fixer/issues"
+  },
+  "homepage": "https://github.com/zhuuuoyue/gap-script-fixer#readme",
+  "devDependencies": {
+    "@types/lodash": "^4.14.178",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "gap-script": "^1.1.3",
+    "gap-script-test": "^1.0.2",
+    "lodash": "^4.17.21"
+  }
+}
